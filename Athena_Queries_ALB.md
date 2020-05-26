@@ -2,7 +2,7 @@
 When an Access Log is enabled entries are populated in the log that contain information about each access made to the ALB (HTTP, HTTPS, Websocket etc).
 For troubleshooting and analysis purposes Amazon Athena can be used to analyze the ALB's access logs. 
 Athena is AWS' Big Data Service that gives developers speed and cost benefits when analyzing huge chunks of data. 
-The below are SQL queries i wrote/use when analyzing logs. 
+The below are some SQL queries i wrote/use when analyzing logs: 
 
 Table name: alb_log
 
